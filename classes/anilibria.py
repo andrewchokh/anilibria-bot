@@ -27,12 +27,3 @@ class Anilibria:
             anime_list.append(anime_data_list)
 
         return anime_list
-
-    # def download_img(self, url):
-    #     r = requests.get(url, allow_redirects=True)
-
-    #     a = urlparse(url)
-    #     filename = os.path.basename(a.path)
-    #     open('temp/' + filename, 'wb').write(r.content)
-
-    #     return filename
